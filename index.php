@@ -17,6 +17,8 @@ header('Location: http://hyz.moe/w/index.php/27.html ');//  '.$request_uri
 2.主页导航nav由原版的class改为id
 3.取消应用栏，取消利用jquery页面转换
 4.取消导航字体大小切换
+
+--2016.3.15 语义化
 -->
 <script>
 var 弹窗 = alert;
@@ -26,9 +28,9 @@ var 弹窗 = alert;
 		<script src="jquery-2.1.4.min.js"></script>
 		<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 		<meta charset="utf-8">
-		<meta name="keywords" content="哈一中,哈尔滨市第一中学校,哈一中网校">
+		<meta name="keywords" content="哈一中,哈尔滨市第一中学校,哈一中官网">
 		<meta name="description" content="哈一中哈尔滨市第一中学校官网">
-		<meta name="author" content="码农公社--哈尔滨市第一中学校信息技术社">
+		<meta name="author" content="哈尔滨市第一中学校信息技术社">
 		<title>哈尔滨市第一中学校</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="css.css">
@@ -64,6 +66,7 @@ var 弹窗 = alert;
 	<!--本站点由哈尔滨市第一中学信息技术社-码农公社 倾情制作ㄟ(▔▽▔ㄟ) (╯▔▽▔)╯ 请保留原作一切著作权，未经允许的传播或使用 (╬▔皿▔)凸 本社团保留一切追究权利-->
 
 	<body id="body" onselectstart="return false" onpaste="return false" oncopy="return false;" oncut="return false;" oncontextmenu="return false;" galleryimg="no">
+	<nav>	
 		<!--顶部白条-->
 		<div class="topsome">
 			<a href="http://weibo.com/ShellV" target='_blank'> -->我想提问题个 OAQ</a>
@@ -80,7 +83,8 @@ var 弹窗 = alert;
 			<a href="/u/tieba" onclick="docuMents()" id="navz" id="navsmall" target="_blank">校园贴吧</a>
 			<a href="#..." onclick="noThing()" id="navz" id="navsmall">...</a>
 		</div>
-
+	</nav>
+	<section>
 		<p id="nimaline"></p><!--DOM、jq添加元素标志标志线，在这个下边添加元素用-->
 		
 
@@ -112,15 +116,16 @@ var 弹窗 = alert;
 		</section>
 	-->
 	<!--底边栏-->
-		<footer style=" background-color:#000000;" id="footer">
+	</section>
+	<footer style=" background-color:#000000;" id="footer">
 						
 						<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1255824985'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1255824985' type='text/javascript'%3E%3C/script%3E"));</script>
 						
 						<a href="/fm" target='_blank'>二次元FM</a>&nbsp;
 						<a href="/w" target='_blank'>一中文库</a>
-			<a href="http://221.208.241.163:8081/ZHcheck/studentloginCheckScore" target="_blank">2015会考查询入口</a>
+						<a href="http://221.208.241.163:8081/ZHcheck/studentloginCheckScore" target="_blank">2015会考查询入口</a>
 						<a href="http://www.hyz.moe/w/index.php/archives/14.html" target='_blank'>橙光游戏</a>
-		</footer>
+	</footer>
 	</body>
 </html>
 
