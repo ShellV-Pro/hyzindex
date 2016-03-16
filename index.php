@@ -78,7 +78,7 @@ var 弹窗 = alert;
 			<a href="#" onclick="goindex()"  id="navz" id="navbig">首页</a>  <!--class="oneisbig"-->
 			
 			<!--<a href="#文章_(:3」∠)_" onclick="docuMents()" class="navz" id="navsmall">应用</a>-->
-			<a href="/w/index.php/category/news/" onclick="docuMents()" id="navz" id="navsmall" target="_blank">新闻分站</a>
+			<a href="/w/index.php/category/news/" onclick="docuMents()" id="navz" id="navsmall" target="_blank">校园快讯</a>
 			<a href="http://www.hyzwx.com/" alt="这里是哈尔滨市地址一中学网校" class="navz" id="navsmall" target="_blank">哈一官网</a>
 			<a href="/u/tieba" onclick="docuMents()" id="navz" id="navsmall" target="_blank">校园贴吧</a>
 			<a href="#..." onclick="noThing()" id="navz" id="navsmall">...</a>
